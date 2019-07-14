@@ -1,5 +1,5 @@
 {
-    "name": "magepal/magento2-gmailsmtpapp",
+    "name": "llapgoch/magento2-gmailsmtpapp",
     "description":"Magento 2 SMTP Extension - Configure Magento 2 to send all transactional email using Gmail, G Suite, Amazon SES, Office360, Mailgun, SendGrid, Mandrill or any other SMTP servers",
     "keywords": [
         "magento 2",
@@ -36,6 +36,11 @@
             "email": "renon@magepal.com",
             "homepage": "http://www.magepal.com/",
             "role": "Leader"
+        },
+        {
+            "name": "Dave Baker",
+            "email": "dangerous@scumonline.co.uk",
+            "homepage": "http://dave-baker.com/"
         }
     ],
     "autoload": {
