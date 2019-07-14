@@ -33,10 +33,6 @@ class Transport extends Zend_Mail_Transport_Sendmail implements TransportInterfa
      */
     public function __construct(MessageInterface $message, $parameters = null)
     {
-        if (!$message instanceof Zend_Mail) {
-            throw new InvalidArgumentException('The message should be an instance of \Zend_Mail');
-        }
-
         parent::__construct($parameters);
         $this->_message = $message;
     }
